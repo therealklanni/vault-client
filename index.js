@@ -4,7 +4,7 @@ var https = require('https')
 var querystring = require('querystring')
 var underscore = require('underscore')
 var util = require('util')
-var webcrypto = require('./msrcrypto.js')
+var webcrypto = require('./msrcrypto.min.js')
 
 var Client = function (options, state, callback) {
   if (!(this instanceof Client)) return new Client(options, state, callback)
